@@ -23,6 +23,7 @@ public class CareersPageProject {
 		driver.manage().window().maximize();
 
 		CareersLandingPage(driver);
+		System.out.println("Code Automated successfully !");
 
 	}
 
