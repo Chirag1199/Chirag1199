@@ -18,6 +18,9 @@ public class CareersPageProject {
 		
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Chirag\\Downloads\\chromedriver_win32\\chromedriver1.exe");
+
+		/* Setting up a method System.setProperty is not needed as per the new release. Delete the line 16 ad 17 */
+
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://numadic.com/careers/");
