@@ -13,6 +13,9 @@ public class CareersPageProject {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		// System.setPropperty really not needed as per the new version. 
+		// In selenium webmanager 4.6.2, we can directly call the webdriver method which mentioning the path of webdriver
+		
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Chirag\\Downloads\\chromedriver_win32\\chromedriver1.exe");
 		WebDriver driver = new ChromeDriver();
